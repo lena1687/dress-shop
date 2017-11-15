@@ -1,0 +1,94 @@
+@import "library"
+
+.catalog-element
+  .container
+    width: 100%
+    margin: 0 auto
+    .product-title
+      margin-top: 30px
+    .product-carousel
+      width: 40%
+      margin: 0 auto
+      text-align: center
+      .owl-stage-outer
+        .owl-item
+          height: auto
+          img
+            width: auto
+            max-height: 500px
+            margin: 0 auto
+      .owl-nav
+        background-size: 100%
+        .owl-prev,
+        .owl-next
+          width: 60px
+          height: 60px
+          display: inline-block
+          color: transparent
+          top: -270px
+          position: relative
+        .owl-prev
+          float: left
+          background: url('../img/arrow-prev.png') no-repeat
+          background-size: 100%
+          left: -25px
+        .owl-next
+          float: right
+          background: url('../img/arrow-next.png') no-repeat
+          background-size: 100%
+          right: -25px
+    .product-item-detail-tabs-container
+      background-color: $color-beige
+      width: 30%
+      margin: 0 auto
+      .product-item-detail-tabs-list
+        padding: 0 20px
+        li
+          display: inline-block
+          float: none
+          width: 48%
+          a
+            font-size: 1rem
+            margin-top: 0px
+            color: $color-cherry
+            text-decoration: none
+            &:after
+              background: $color-cherry
+        .left-tab
+          text-align: right
+    .description-section
+      width: 25%
+      margin: 0 auto
+      .product-item-detail-tab-content
+        p
+          font-size: 1rem
+        .product-item-detail-properties
+          text-align: center
+          display: inline
+          dt,
+          dd
+            font-size: 1rem
+          dd:last-child
+            margin-bottom: 20px
+  .product-item-detail-tabs-container-fixed
+    .product-item-detail-tabs-list
+      li
+        display: inline-block
+        float: left
+        a
+          text-decoration: none
+          img
+            padding: 4px 10px
+          h2
+            margin-top: 5px
+            padding-left: 15px
+
+
+
+
+
+
+
+
+
+

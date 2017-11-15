@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001510651205';
+$dateexpire = '001510654805';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{s:14:"form_element_3";a:1:{s:4:"tabs";s:794:"edit1--#--Товар--,--ID--#--ID--,--DATE_CREATE--#--Создан--,--TIMESTAMP_X--#--Изменен--,--ACTIVE--#--Активность--,--ACTIVE_FROM--#--Начало активности--,--ACTIVE_TO--#--Окончание активности--,--NAME--#--*Название--,--CODE--#--*Символьный код--,--SORT--#--Сортировка--,--IBLOCK_ELEMENT_PROPERTY--#--Значения свойств--,--IBLOCK_ELEMENT_PROP_VALUE--#----Значения свойств--,--PROPERTY_4--#--Размер обуви--,--PROPERTY_1--#--Размеры одежды--,--PROPERTY_2--#--Цена--,--PROPERTY_3--#--В наличии--,--PREVIEW_PICTURE--#--Картинка для анонса--,--PROPERTY_5--#--Фото--,--DETAIL_TEXT--#--Детальное описание--;--";}s:14:"form_element_4";a:1:{s:4:"tabs";s:414:"edit1--#--Магазин--,--ID--#--ID--,--ACTIVE--#--Активность--,--NAME--#--*Название--,--IBLOCK_ELEMENT_PROP_VALUE--#----Значения свойств--,--PROPERTY_7--#--Адрес магазина--,--PROPERTY_9--#--Контактный телефон--,--PROPERTY_11--#--Координаты--,--PROPERTY_10--#--ФИО руководителя--,--PROPERTY_8--#--Часы работы--;--";}s:14:"form_element_5";a:1:{s:4:"tabs";s:260:"edit1--#--Слайд--,--ID--#--ID--,--DATE_CREATE--#--Создан--,--TIMESTAMP_X--#--Изменен--,--ACTIVE--#--Активность--,--NAME--#--*Автор отзыва--,--SORT--#--Сортировка--,--PREVIEW_TEXT--#--Текст отзыва--;--";}}}';
+return true;
+?>

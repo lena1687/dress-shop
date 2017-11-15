@@ -1,0 +1,1 @@
+<p>Copyright <img src="<?=SITE_TEMPLATE_PATH?>/img/copyright.png" alt="copyright" width="20px" height="20px"> ColdBrain 2017. Все права защищены.</p>

@@ -1,0 +1,108 @@
+@import "library"
+
+footer
+  .top-footer
+    background-color: $color-purple
+    height: 200px
+    color: $color-beige
+    padding-top: 12px
+    line-height: 1.42857143
+    padding-left: 31%
+    @media screen and (max-width: 1334px)
+      padding-left: 28%
+    @media screen and (max-width: 1199px)
+      padding-top: 35px
+    @media screen and (max-width: 880px)
+      padding-left: 24%
+    @media screen and (max-width: 710px)
+      padding-left: 19%
+    @media screen and (max-width: 510px)
+      padding-left: 12%
+    @media screen and (max-width: 400px)
+      padding-left: 7%
+    @media screen and (max-width: 360px)
+      padding-left: 3%
+    .footer-contacts
+      height: 160px
+      display: inline-block
+      width: 40%
+      font-size: 1.2rem
+      float: left
+      @media screen and (max-width: 710px)
+        width: 47%
+      @media screen and (max-width: 510px)
+        width: 57%
+      @media screen and (max-width: 400px)
+        width: 60%
+      @media screen and (max-width: 360px)
+        width: 55%
+      p
+        margin: 0 0 10px
+    .footer-menu-social
+      display: inline-block
+      width: 30%
+      float: left
+      @media screen and (max-width: 360px)
+        text-align: center
+        width: 34%
+      .footer-social
+        .social
+          margin-top: 10px
+          a
+            display: inline-block
+            width: 60px
+            height: 60px
+            background: url('../img/social_sprites1.png') no-repeat
+            margin-right: 5px
+            @media screen and (max-width: 834px)
+              width: 30px
+              height: 30px
+              background: url('../img/social_sprites2.png') no-repeat
+            &:hover
+              cursor: pointer
+              transform: scale(1.1)
+              opacity: 0.7
+          .vk
+            background-position: -4px -4px
+            @media screen and (max-width: 834px)
+              background-position: -1px -2px
+          .inst
+            background-position: -4px -71px
+            @media screen and (max-width: 834px)
+              background-position: -1px -35px
+          .mail
+            background-position: -70px -70px
+            margin-right: 0
+            @media screen and (max-width: 834px)
+              background-position: -35px -35px
+      .footer-menu
+        ul
+          padding-left: 0
+          padding-top: 0px
+          margin-bottom: 10px
+          margin-top: 0
+          li
+            list-style: none
+            a
+              cursor: pointer
+              font-size: 1.4rem
+              color: $color-beige
+              text-decoration: none
+              &:hover
+                color: $color-white
+  .bottom-footer
+    text-align: center
+    background-color: $color-beige
+    height: 35px
+    img
+      margin-top: -3px
+      vertical-align: middle
+    p
+      display: inline-block
+      margin: 0 0 0
+      line-height: 2.2
+      font-size: 1rem
+      @media screen and (max-width: 1199px)
+        line-height: 2.5
+        font-size: 1.2rem
+

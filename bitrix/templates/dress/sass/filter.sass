@@ -1,0 +1,105 @@
+@import "library"
+
+.filter
+  .bx-filter-horizontal
+    margin-bottom: 0
+    .bx-filter-section
+      background-color: $color-pink
+      color: $color-cherry
+      .bx-filter-title
+        font-family: $font
+        margin: 0
+        margin-top: 10px
+        text-align: center
+        font-size: 2.5rem
+        padding-bottom: 30px
+        color: $color-cherry
+    form
+      margin-left: 20px
+      .bx-filter-parameters-box
+        display: inline-block
+        float: left
+        text-align: center
+        margin-right: 2%
+        width: 18%
+        .bx-filter-parameters-box-hint
+          font-weight: 600
+          margin-top: 20px
+          background-color: $color-cherry
+          padding: 10px 20px
+          font-size: 0.9rem
+          border: 1px solid $color-purple
+          color: $color-beige
+          text-transform: uppercase
+          font-family: $font
+          &:hover
+            background-color: $color-beige
+            color: $color-purple
+        .bx-filter-parameters-box-container-block.bx-left,
+        .bx-filter-parameters-box-container-block.bx-right
+          float: left
+          width: 50%
+          input[type=text]
+            font-family: $font
+            text-align: center
+            width: 60%
+            margin: 0 auto
+        .bx-ui-slider-track-container
+          padding-top: 60px
+          .bx-ui-slider-track
+            margin-top: 70px
+            font-family: $font
+            .bx-ui-slider-part
+              span
+                color: $color-cherry
+                font-size: 0.9rem
+            .bx-ui-slider-pricebar-vn
+              background: $color-beige
+            .bx-ui-slider-pricebar-vd
+              background: $color-beige
+            .bx-ui-slider-pricebar-v
+              background: $color-purple
+            .bx-ui-slider-handle
+              opacity: 0.7
+        .bx-filter-block
+          margin-top: 18px
+          .checkbox
+            text-align: left
+            label
+              padding-left: 0
+            input[type=checkbox]
+              width: 25px
+              height: 25px
+              margin-left: 0px
+            .bx-filter-param-text
+              font-family: $font
+              margin-top: 5px
+              font-size: 1.2rem
+              margin-left: 45px
+      .bx-filter-button-box
+        padding-bottom: 15px
+        .bx-filter-parameters-box-container
+          text-align: center
+          .btn
+            text-transform: uppercase
+            font-family: $font
+            padding: 10px 20px
+            font-size: 1rem
+            text-decoration: none
+            margin-top: 10px
+            border-radius: 0px
+            border: none
+          .btn-themes
+            margin-left: -40px
+            margin-right: 10px
+            color: $color-beige
+            background-color: $color-purple
+            &:hover
+              background-color: $color-cherry
+          .btn-link
+            background-color: $color-beige
+            color: $color-purple
+            &:hover
+              background-color: $color-cherry
+              color: $color-beige
+

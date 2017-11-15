@@ -1,0 +1,24 @@
+@import "library"
+
+.error
+  min-height: calc(83vh - 235px)
+  background-color: $color-pink
+  color: $color-cherry
+  padding-top: 50px
+  &:before
+    content: ""
+    width: 100px
+    height: 100px
+    background: url('../img/404.png') no-repeat
+    margin: 0 auto
+    display: block
+    background-size: contain
+    padding-bottom: 20px
+  p
+    font-size: 2rem
+    margin: 0 auto
+    text-align: center
+    a
+      text-decoration: none
+      &:hover
+        cursor: pointer

@@ -1,0 +1,107 @@
+@import "library"
+
+.feedback
+  background-color: $color-beige
+  color: $color-purple
+  padding: 30px 0
+  p
+    margin: 0
+  .feedback-text
+    width: 50%
+    float: left
+    text-align: center
+    padding: 0 60px
+    @media screen and (max-width: 1100px)
+      width: 40%
+    @media screen and (max-width: 799px)
+      float: none
+      width: 100%
+      padding: 0 20px
+    h1
+      font-size: 2.5rem
+      margin: 0
+      padding: 20px 0
+    p
+      font-size: 1.5rem
+      @media screen and (max-width: 1600px)
+        font-size: 1.2rem
+      @media screen and (max-width: 799px)
+        font-size: 1.5rem
+  form
+    margin-top: 40px
+    font-size: 1.2rem
+    width: 50%
+    float: left
+    @media screen and (max-width: 1100px)
+      width: 60%
+    @media screen and (max-width: 799px)
+      float: none
+      width: 90%
+    .mf-tell-email
+    @media screen and (max-width: 799px)
+      margin-left: 10%
+    .mf-name
+      display: none
+    .mf-email
+      margin-top: -68px
+      @media screen and (max-width: 1200px)
+        margin-top: -59px
+      @media screen and (max-width: 768px)
+        margin-top: 0px
+    .mf-tell,
+    .mf-email,
+    .mf-message
+      width: 45%
+      float: left
+      @media screen and (max-width: 768px)
+        width: 100%
+      input,
+      textarea
+        border: 1px solid $color-purple
+        text-indent: 5px
+        width: 85%
+        font-size: 1rem
+        color: $color-purple
+        font-family: $font
+        @media screen and (max-width: 768px)
+          width: 80%
+      input
+        height: 36px
+    .fb-button
+      margin: 20px auto 0
+      text-align: center
+      margin-right: 133px
+      @media screen and (max-width: 760px)
+        margin-right: 100px
+      @media screen and (max-width: 475px)
+        margin-right: 65px
+      input
+        font-weight: 600
+        margin-top: 20px
+        background-color: $color-pink
+        padding: 10px 20px
+        font-size: 1rem
+        border: 1px solid $color-purple
+        color: $color-purple
+        text-transform: uppercase
+        font-family: $font
+        &:hover
+          background-color: $color-purple
+          color: $color-pink
+.feedback
+  .feedback-left
+    opacity: 1
+    transform: translateX(90%)
+    transition: transform 2s ease-in-out
+    @media screen and (max-width: 1100px)
+      transform: translateX(140%)
+    @media screen and (max-width: 799px)
+      transform: translateX(0%)
+  .feedback-right
+    opacity: 1
+    transform: translateX(-90%)
+    transition: transform 2s ease-in-out
+    @media screen and (max-width: 1100px)
+      transform: translateX(-55%)
+    @media screen and (max-width: 799px)
+      transform: translateX(0%)

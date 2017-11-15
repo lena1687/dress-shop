@@ -1,0 +1,137 @@
+@import "library"
+
+header
+  .top-header
+    height: 50px
+    background-color: $color-cherry
+    color: $color-beige
+    text-transform: uppercase
+    padding: 0 35px
+    @media screen and (max-width: 663px)
+      height: 100px
+    @media screen and (max-width: 450px)
+      padding: 0 5px
+    .header-telefon
+      line-height: 2.5
+      width: 30%
+      float: left
+      @media screen and (max-width: 663px)
+        float: none
+        width: 100%
+        text-align: center
+      img
+        float: left
+        margin: 12px 15px 0 0
+        background-repeat: no-repeat
+        width: 30px
+        height: 30px
+        @media screen and (max-width: 663px)
+          float: none
+          margin-top: -10px
+      .number-tel
+        cursor: pointer
+        font-size: 1.5rem
+        text-decoration: none
+        color: $color-beige
+        @media screen and (max-width: 1199px)
+          line-height: 3
+        &:hover
+          text-decoration: none
+          color: $color-white
+    .header-menu
+      width: 70%
+      float: right
+      @media screen and (max-width: 1199px)
+        line-height: 1.7
+      @media screen and (max-width: 663px)
+        float: none
+        width: 100%
+      ul
+        margin-top: 10px
+        float: right
+        @media screen and (max-width: 663px)
+          float: none
+          padding-left: 0
+          text-align: center
+        li
+          display: inline-block
+          margin-left: 30px
+          @media screen and (max-width: 663px)
+            margin-left: 15px
+          &:first-child
+            margin-left: 0
+          a
+            cursor: pointer
+            font-size: 1.5rem
+            text-transform: none
+            color: $color-beige
+            text-decoration: none
+            &:hover
+              text-decoration: none
+              color: $color-white
+  .bottom-header
+    border-top: 15px solid $color-pink
+    height: 120px
+    background-color: $color-beige
+    color: $color-purple
+    padding: 0 35px
+    @media screen and (max-width: 576px)
+      height: 180px
+    .logo-slogan
+      .header-logo
+        font-size: 4.5rem
+        line-height: 1.3
+        float: left
+        color: $color-purple
+        text-decoration: none
+        cursor: pointer
+        @media screen and (max-width: 1199px)
+          line-height: 1.7
+        @media screen and (max-width: 767px)
+          line-height: 2
+        @media screen and (max-width: 576px)
+          float: none
+          text-align: center
+      .header-slogan
+        line-height: 2.7
+        padding-left: 105px
+        font-size: 2.5rem
+        color: $color-purple
+        float: left
+        display: inline-block
+        @media screen and (max-width: 1199px)
+          line-height: 3.4
+        @media screen and (max-width: 1000px)
+          display: none
+    .social-wrapper
+      float: right
+      @media screen and (max-width: 576px)
+        float: none
+      .social
+        float: right
+        margin-top: 22px
+        @media screen and (max-width: 663px)
+          margin-top: 25px
+        @media screen and (max-width: 576px)
+          float: none
+          margin-top: 0px
+          margin-bottom: 10px
+          text-align: center
+        a
+          display: inline-block
+          width: 60px
+          height: 60px
+          background: url('../img/social_sprites.png') no-repeat
+          margin-right: 5px
+          &:hover
+            cursor: pointer
+            transform: scale(1.1)
+            opacity: 0.7
+        .vk
+          background-position: -4px -4px
+        .inst
+          background-position: -4px -71px
+        .mail
+          background-position: -70px -70px
+          margin-right: 0
+

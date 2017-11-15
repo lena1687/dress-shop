@@ -1,0 +1,133 @@
+@import "library"
+
+.features-slider
+  background-color: $color-purple
+  padding: 30px 0
+  @media screen and (max-width: 535px)
+    padding: 5px 0
+  .my-slider
+    width: 50%
+    float: right
+    @media screen and (max-width: 1400px)
+      margin-top: 10px
+    @media screen and (max-width: 1350px)
+      margin-top: 20px
+    @media screen and (max-width: 1300px)
+      margin-top: 30px
+    @media screen and (max-width: 1250px)
+      margin-top: 40px
+    @media screen and (max-width: 1200px)
+      margin-top: 50px
+    @media screen and (max-width: 1150px)
+      margin-top: 60px
+    @media screen and (max-width: 1100px)
+      margin-top: 70px
+    @media screen and (max-width: 1000px)
+      margin-top: 80px
+    @media screen and (max-width: 950px)
+      margin-top: 90px
+    @media screen and (max-width: 900px)
+      margin-top: 100px
+    @media screen and (max-width: 850px)
+      margin-top: 110px
+    @media screen and (max-width: 805px)
+      display: none
+    .slider-wrapper
+      position: relative
+      width: 100%
+      padding: 28px 40px 20px 18px
+      .owl-stage-outer
+        .slider-item
+          float: right
+          width: 100%
+          max-height: 640px
+          margin: 0 auto
+          img
+            max-width: 100%
+            height: auto
+      .owl-dots
+        margin-right: 50px
+        .owl-dot
+          float: right
+          z-index: 2
+          top: -42px
+          width: 30px
+          height: 30px
+          background: $color-beige
+          position: relative
+          transform: rotate(-45deg)
+          transform-origin: 0 100%
+          margin-left: 30px
+          @media screen and (max-width: 1100px)
+            top: -25px
+            width: 20px
+            height: 20px
+        .owl-dot.active
+          background-color: $color-pink
+  .features
+    color: $color-beige
+    width: 50%
+    float: left
+    @media screen and (max-width: 805px)
+      float: none
+      margin: 0 auto
+      width: 100%
+    @media screen and (max-width: 536px)
+      margin-bottom: 20px
+    table
+      font-size: 2rem
+      margin-top: 100px
+      @media screen and (max-width: 1800px)
+        margin-top: 55px
+      @media screen and (max-width: 1700px)
+        margin-top: 45px
+      @media screen and (max-width: 1600px)
+        margin-top: 35px
+      @media screen and (max-width: 1504px)
+        margin-top: 25px
+        font-size: 1.7rem
+      @media screen and (max-width: 805px)
+        width: 100%
+      @media screen and (max-width: 620px)
+        margin-left: 25px
+      @media screen and (max-width: 535px)
+        width: 95%
+      @media screen and (max-width: 490px)
+         width: 90%
+      caption
+        color: $color-beige
+        text-align: center
+        font-size: 2.5rem
+        padding-bottom: 30px
+        @media screen and (max-width: 805px)
+          font-size: 3rem
+          margin-left: -40px
+        @media screen and (max-width: 490px)
+          margin-left: 0px
+          padding-bottom: 20px
+      .features-item
+        display: inline-block
+        width: 45px
+        height: 45px
+        background: url('../img/feature.png') no-repeat
+        margin-right: 25px
+        margin-top: 3px
+        margin-left: 45px
+        @media screen and (max-width: 620px)
+          margin-left: 20px
+        @media screen and (max-width: 550px)
+          margin-left: 10px
+        @media screen and (max-width: 400px)
+          margin-left: 0
+      .icon-time
+        background-position: -207px -294px
+      .icon-price
+        background-position: -145px -295px
+      .icon-size
+        background-position: -207px -184px
+      .icon-shipping
+        background-position: -393px -71px
+      .icon-gift
+        background-position: -22px -128px
+      .icon-prof
+        background-position: -511px -295px

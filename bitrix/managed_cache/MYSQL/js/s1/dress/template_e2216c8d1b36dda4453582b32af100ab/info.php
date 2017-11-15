@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/templates/dress/js/script.js" => "15102974777513","/bitrix/templates/dress/js/tether.min.js" => "150349181324997","/bitrix/templates/dress/js/owl.carousel.min.js" => "150589949642766",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>
